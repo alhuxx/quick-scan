@@ -9,7 +9,7 @@ To run successfully, you’ll need to ensure the following are installed:
 * nmap
 * nikto
 
-**Note:** There appears to be a known issue where masscan never returns when running via vpn/tunnel on Debian-based distros. Quick Scan will therefore run infinitely if this issue is encountered.
+**Note:** There appears to be a known issue where masscan never returns when running via vpn/tunnel on Debian-based distros, quick scan will therefore run infinitely if this issue is encountered.
 
 ### Usage
   To use, simply specify a target IP address as well as an outgoing interface. For example:
